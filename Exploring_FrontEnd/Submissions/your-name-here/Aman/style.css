@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-size: 18px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pg1 {
+  background-image: url(img/1.jpg);
+  min-height: 100%;
+  opacity: 0.7;
+  align-self: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  z-index: 99;
+}
+.pg2 {
+  background-image: url(img/2.jpeg);
+  min-height: 400px;
+  opacity: 0.7;
+  align-self: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  z-index: 99;
+}
+.pg3 {
+  background-image: url(img/3.jpeg);
+  min-height: 400px;
+  opacity: 0.7;
+  align-self: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  z-index: 99;
+}
+.pg1,
+.pg2,
+.pg3 {
+  background-position: relative;
+  background-attachment: fixed;
+}
+.section {
+  text-align: justify;
+  margin: 60px;
+}
+.pt {
+  font-size: 7vw;
+  position: absolute;
+  text-align: left;
+
+  top: 25%;
+  color: white;
+  background: hsl(35, 24%, 14%);
+  padding: 2vw;
+  font-family: "Lobster", cursive;
+}
+
+.pt2 {
+  font-size: 15px;
+  position: absolute;
+  text-align: left;
+  width: 30%;
+  height: 20%;
+  color: white;
+
+  top: 55%;
+  margin: 40px;
+  background: #2c251b;
+  padding: 40px;
+  border-left: 600px;
+}
+#tit {
+  animation-duration: 1s;
+}
+#t2 {
+  animation-delay: 0.5s;
+}
+.nav {
+  position: fixed;
+  background: rgb(97, 0, 0);
+  padding: 1vw;
+  left: 65%;
+  z-index: 999;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  box-align: center;
+  text-align: center;
+}
+#cool {
+  text-decoration: none;
+  color: white;
+  z-index: 999;
+  padding-left: 1vw;
+}
+.nav:hover {
+  background: rgb(97, 0, 0);
+  padding: 1.2vw;
+  padding-left: 0.2vw;
+}
+
+.form {
+  background: white;
+  border-radius: 17px;
+
+  align-self: center;
+  color: #666;
+  padding: 14px;
+  margin: 14px;
+}
+
+label {
+  display: block;
+  outline: none;
+}
+#fname,
+#email,
+#adr,
+#city,
+#state,
+#z-code,
+.fix,
+#cname,
+#cvv,
+#ccnum,
+#expmonth,
+#expyear {
+  width: 97%;
+  outline: none;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #666;
+  margin: 10px;
+}
+label {
+  margin: 5px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.in {
+  display: inline;
+  color: rgb(207, 40, 40);
+}
+.in2 {
+  display: inline;
+  font-size: 25px;
+  margin: 15px;
+}
+.head {
+  font-size: 8vw;
+
+  text-align: Center;
+  opacity: 0.8;
+  color: white;
+  background: hsl(35, 24%, 14%);
+  font-family: "Lobster", cursive;
+}
+.foot {
+  background: white;
+  text-align: center;
+  padding-top: 35px;
+}
+.pt3 {
+  position: absolute;
+  background: #2c251b;
+
+  display: block;
+  color: white;
+  left: 25%;
+  font-size: 5vw;
+  position: absolute;
+  opacity: 0.75;
+  padding: 14px;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
