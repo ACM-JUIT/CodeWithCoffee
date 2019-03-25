@@ -1,0 +1,233 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster"
+      rel="stylesheet"
+    />
+    <style>
+      body::after {
+        content: "";
+        background: url(img/1.jpg);
+        opacity: 0.6;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head">
+      Garam Chai ki Pyali
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+
+      <div class="col-md-8">
+        <div class="form">
+          <h1 style="text-align:center;">
+            Place Your Order here...
+          </h1>
+        </div>
+        <div class="st1 form">
+          <h2>Step-1</h2>
+          <p>(Incomplete)</p>
+          <p></p>
+
+          <div class="row">
+            <div class="col-md-2">
+              <div>
+                <input type="checkbox" id="cb" />
+                <h2 class="in2">Classic</h2>
+                <h5>About</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur ni natus illo labore
+                  quam es tempora, nesciunt laboriosam doloribus, assumenda
+                  nostrum?.
+                </p>
+                <div class="dropdown show">
+                  <a
+                    class="btn btn-success dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    How many sets?
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">1</a>
+                    <a class="dropdown-item" href="#">2</a>
+                    <a class="dropdown-item" href="#">3</a>
+                    <a class="dropdown-item" href="#">4</a>
+                    <a class="dropdown-item" href="#">5</a>
+                    <a class="dropdown-item" href="#">6</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+        <div class="st2 form">
+          <h2>Step-2</h2>
+          <p>Billing Address</p>
+
+          <div class="st2-f">
+            <div class="row">
+              <div class="col-md-6">
+                <label><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" placeholder="Aman Choubey" />
+                <label><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" placeholder="aman@example.com" />
+                <label><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" placeholder="H.no-933/sec-55" />
+              </div>
+
+              <div class="col-md-6">
+                <label><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" placeholder="Farifabd" />
+                <label> state</label>
+                <input type="text" id="state" placeholder="Haryana" />
+                <label> Zip-Code</label>
+                <input type="text" id="z-code" placeholder="121001" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="st3 form" style="margin-bottom:px;">
+          <h3>Step-3</h3>
+          <div class="">
+            <h3>Payment</h3>
+
+            <div class="row">
+              <div class="col-md-6">
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i
+                    class="fa fa-cc-visa"
+                    style="color:navy;font-size: 50px;"
+                  ></i>
+
+                  <i
+                    class="fa fa-cc-mastercard"
+                    style="color:red;font-size: 50px;"
+                  ></i>
+                </div>
+                <label>Name on Card</label>
+                <input type="text" id="cname" placeholder="Aman Choubey" />
+                <label>Credit card number</label>
+                <input
+                  type="text"
+                  id="ccnum"
+                  placeholder="1111-2222-3333-4444"
+                />
+                <label>Exp Month</label>
+                <input type="text" id="expmonth" placeholder="September" />
+
+                <div class="">
+                  <label>Exp Year</label>
+                  <input type="text" id="expyear" placeholder="2018" />
+                </div>
+                <div class="">
+                  <label>CVV</label>
+                  <input type="text" id="cvv" placeholder="352" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h4>Other payment options</h4>
+                <i
+                  class="fa  fa-google-wallet "
+                  style="color:rgb(136, 27, 27);font-size:85px;"
+                ></i>
+
+                <i
+                  class="fa fa-paypal"
+                  style="color:hsl(240, 52%, 19%);font-size:85px;"
+                ></i>
+                <h4>T&C</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis itaque tempora totam placeat nostrum eum ab facere
+                  perferendis assumenda dolore ex, voluptatum repellat similique
+                  iure unde hic. Porro, quaerat accusantium. <br />Lorem ipsum,
+                  dolor sit amet consectetur adipisicing elit. Consequatur nemo
+                  ratione sit sint quidem alias modi pariatur minima aperiam
+                  quod repellendus veritatis nostrum a nesciunt suscipit, quos
+                  atque tenetur. Maxime.
+                </p>
+                <div style="margin:25px;">
+                  <input type="checkbox" id="cb" />
+                  <p class="in">I agree to all terms and conditions</p>
+                </div>
+
+                <input
+                  type="button"
+                  class="btn btn-lg btn-success btn-block"
+                  value="Purchase"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="foot">
+      <section class="">
+        <h1>Contact Us</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Address:</h3>
+            <br />H.No.:999/sec-55<br />Pune
+          </div>
+          <div class="col-md-3">
+            <h3>Contact:</h3>
+            <br />+651-618-18<br />+565-666-651<br />+866-86-16
+          </div>
+          <div class="col-md-3">
+            <h3>Email:</h3>
+            <br />admin@gmchkp.com<br />man@gmchkp.com
+          </div>
+          <div class="col-md-3">
+            <h3>About Evelyn</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus ipsam maxime repellat. Nisi nihil laudantium dolores
+            veritatis numquam obcaecati consequuntur saepe reprehenderit
+            repellendus ipsum. Quis earum maxime rem beatae possimus.
+          </div>
+        </div>
+        <div style="padding:1vw;bottom:5%;">
+          Aman_Choubey @copy 2019
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
