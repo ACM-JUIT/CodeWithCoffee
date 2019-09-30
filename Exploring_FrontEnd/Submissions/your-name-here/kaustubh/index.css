@@ -1,0 +1,127 @@
+.header{
+	background-image: url("pexels-photo-904616.jpeg");
+	background-color: white;
+	position: top;
+	width: 100%;
+	height: 500px;
+	padding-top: 0px;
+	margin-top: 0px;
+	background-size: cover;
+}
+.heading{
+	font-size: 100px;
+	color: #e7e6e4;
+	padding-top:2%;
+	text-decoration: none;
+	text-align: center; 
+}
+.heading:hover{
+	text-decoration: none;
+	transform: scale(1.02,1.02);
+}
+.cups
+{
+	display: inline-block;
+}
+.menu{
+	display: inline-block;
+}
+}
+.menu2{
+	display: inline-block;
+	margin-left: 50%
+}
+.tea{
+	background-image: url(m21.jpg);
+	padding-top: 15%;
+	text-align: right;
+	background-size: cover;
+	height: 150%;
+	text-decoration-color: black;
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+}
+.coffee{
+	background-image: url(m22.jpeg);
+	padding-top: 15%;
+	text-align: left;
+	background-size: cover;
+	color: white;
+	text-decoration: none;
+	text-decoration-color: white;
+	height: 150%;
+	font-size: 50px;
+}
+.set{
+	background-image: url(m23.jpeg);
+	padding-top: 15%;
+	text-align: right;
+	color: white;
+	height: 150%;
+	background-size: cover;
+	text-decoration: none;
+	text-decoration-color: white;
+	font-size: 50px;
+}
+.custom{
+	background-image: url(m24.jpg);
+	text-align: left;
+	padding-top: 19%;
+	text-decoration: none;
+	height: 150%;
+	background-size: cover;
+	height: auto;
+	color: black;
+	text-decoration-color: black;
+	font-size: 50px;
+}
+.w:link{
+	text-decoration: none;
+} 
+.b:link{
+	text-decoration: none;
+}
+.w:visited{
+  text-decoration: none;
+}
+.b:visited{
+  text-decoration: none;
+}
+.b:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.w:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.w:active{
+  text-decoration: none;
+}
+.b:active{
+  text-decoration: none;
+}
+.footer{
+	background-color: black;
+	font-size: 25px;
+}
+.icon{
+	padding-top: 110px; 
+	background-image: url(foot.png);
+	background-size: cover;
+}
+body{
+	background-color: black;
+}
+.l{
+	padding-left: 15%
+}
+.l:link{
+color: cyan;
+text-decoration: none;
+}
+.l:hover{
+	text-decoration: underline;
+	text-decoration-color: black;
+}

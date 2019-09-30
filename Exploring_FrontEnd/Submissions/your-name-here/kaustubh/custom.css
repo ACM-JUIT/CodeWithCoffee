@@ -1,0 +1,48 @@
+.main{
+	display: inline-block;
+	width: 100%;
+}
+.pro{
+	height: 50%;
+	width: 20%;
+	float: left;
+	margin-left: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-right: 70px;
+	display: inline-block;
+}
+.pro:hover{
+	transform: scale(1.8,1.8);
+	cursor: zoom-in;
+}
+.head{
+	display:inline;
+	margin-top: 50px;
+	z-index: 1;
+	vertical-align: top;
+	position: relative;
+	padding-left: 500px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.footer{
+
+	font-size: 25px;
+}
+.icon{
+	padding-top: 110px; 
+	background-image: url(foot.png);
+	background-size: cover;
+}
+.l{
+	padding-left: 15%
+}
+.l:link{
+color: cyan;
+text-decoration: none;
+}
+.l:hover{
+	text-decoration: underline;
+	text-decoration-color: black;
+}
